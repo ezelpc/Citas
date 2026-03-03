@@ -1,0 +1,26 @@
+{
+  "name": "citas-frontend",
+  "version": "1.0.0",
+  "description": "Aplicación móvil Expo/React Native para Citas",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web"
+  },
+  "dependencies": {
+    "expo": "^55.0.4",
+    "expo-router": "^3.5.25",
+    "react": "^18.2.0",
+    "react-native": "0.73.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
