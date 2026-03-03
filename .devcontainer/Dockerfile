@@ -1,5 +1,5 @@
 # Base oficial estable
-FROM node:18-bullseye
+FROM node:22-bullseye
 
 # Argumentos para usuario no-root
 ARG USERNAME=root
@@ -28,10 +28,6 @@ WORKDIR /workspace
 
 # Cambiar a usuario no-root
 USER ${USERNAME}
-
-# Evitar problemas de permisos npm global
-ENV NPM_CONFIG_PREFIX=/home/${USERNAME}/.npm-global
-ENV PATH=$PATH:/home/${USERNAME}/.npm-global/bin
 
 # Mantener contenedor vivo (devcontainer override)
 CMD ["sleep", "infinity"]

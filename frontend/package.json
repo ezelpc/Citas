@@ -13,14 +13,16 @@
   "dependencies": {
     "expo": "^55.0.4",
     "expo-router": "^3.5.25",
-    "react": "^18.2.0",
-    "react-native": "0.73.11"
+    "react": "^18.3.0",
+    "react-native": "0.73.11",
+    "react-dom": "^18.3.0",
+    "react-native-web": "^0.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
     "typescript": "^5.0.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": ">=20.0.0"
   }
 }
