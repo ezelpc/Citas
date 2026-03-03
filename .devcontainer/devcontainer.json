@@ -24,7 +24,7 @@
     }
   },
 
-  "postCreateCommand": "npm install --prefix backend && npm install --prefix frontend",
+  "postCreateCommand": "npm install --prefix backend && npm install --prefix frontend --legacy-peer-deps",
 
   "forwardPorts": [3000, 8081, 5432]
 }
